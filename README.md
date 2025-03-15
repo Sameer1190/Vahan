@@ -5,6 +5,4 @@ This mini project involves the integration of a phone interface to automate auto
 Prototype:
 ![image](https://github.com/user-attachments/assets/de1f7aa3-9335-48a3-ad53-572df24617cc)
 
-Result:
-![image](https://github.com/user-attachments/assets/ef6973cb-882d-4af8-870a-17528a556cc7)
 
