@@ -1,0 +1,17 @@
+<!--  activity_main.xml  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MainActivity" android:background="@color/white">
+<RelativeLayout android:layout_width="match_parent" android:layout_height="60dp" android:layout_alignParentTop="true" android:layout_marginTop="20dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:text="Vahaan Mobile Controller" android:textSize="25sp" android:textColor="@color/black" android:textStyle="bold"/>
+</RelativeLayout>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:orientation="horizontal">
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="50dp">
+<ImageView android:id="@+id/leftButton" android:layout_width="50dp" android:layout_height="50dp" android:background="@drawable/left_arrow" android:layout_alignParentLeft="true" android:layout_marginRight="80dp" android:text="Left"/>
+<ImageView android:id="@+id/rightButton" android:layout_width="50dp" android:layout_height="50dp" android:background="@drawable/right_arrow" android:layout_toRightOf="@id/leftButton" android:text="Right"/>
+</RelativeLayout>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_margin="50dp">
+<ImageView android:id="@+id/forwardButton" android:layout_width="75dp" android:layout_height="75dp" android:text="Forward" android:background="@drawable/accelerator"/>
+<ImageView android:id="@+id/backwardButton" android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="20dp" android:layout_toRightOf="@id/forwardButton" android:background="@drawable/brake" android:text="Backward"/>
+</RelativeLayout>
+</LinearLayout>
+<Button android:id="@+id/stopButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="20dp"/>
+</RelativeLayout>
